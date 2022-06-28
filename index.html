@@ -15,10 +15,10 @@
         <div class="reghtside">
             <h1>Crie uma conta</h1>
 
-            <form action="" method="post">
+            <form action="cadastro.php" method="post" class="validator">
                 <label for="">
                     Seu nome: <br>
-                    <input type="text" name="name">
+                    <input type="text" name="name" data-rules="required|min=3">
                 </label>
                 <label for="">
                     Seu e-mail: <br>

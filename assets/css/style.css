@@ -20,7 +20,7 @@ body {
 }
 .reghtside {
     width: 400px;
-    background-color: #888;
+    background-color: #DDD;
     padding: 50px;
 }
 .reghtside label {
@@ -34,4 +34,12 @@ body {
     padding: 8px;
     font-size: 14px;
     outline: 0;
+}
+
+.error {
+    background-color: red;
+    color: white;
+    font-size: 11px;
+    padding: 4px;
+    border-radius: 5px;
 }

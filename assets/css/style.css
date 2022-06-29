@@ -37,9 +37,9 @@ body {
 }
 
 .error {
+    font-size: 11px;
     background-color: red;
     color: white;
-    font-size: 11px;
     padding: 4px;
     border-radius: 5px;
 }
